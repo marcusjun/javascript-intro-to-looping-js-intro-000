@@ -24,6 +24,7 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array){
+  //use shift() not pop()
   do {
     array.shift()
   } while (array.length>0&&maybeTrue())
