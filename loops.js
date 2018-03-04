@@ -1,6 +1,7 @@
 function forLoop(array){
   //var newArray=array
   for (let i=0; i<25; i++){
+    //can use unshift or push
     if (i===1){
       array.unshift("I am "+i+" strange loop.")
     }
