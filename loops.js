@@ -20,6 +20,7 @@ function whileLoop(n){
 }
 
 function maybeTrue() {
+  //can also define this function in the doWhileLoop function
   return Math.random() >= 0.5
 }
 
